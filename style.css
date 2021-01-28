@@ -1,0 +1,121 @@
+#slika {
+margin-top: 100px;
+  margin-left: 100px;
+  position: relative;
+  border:solid black 0.5px;
+}
+
+#naslov {
+  margin-left: 700px;
+  margin-top: -500px;
+  position: relative;
+}
+
+#logo {
+  margin-left: 1100px;
+  margin-top:-80px;
+  position: absolute;
+}
+
+.tabela {
+  margin-left: 700px;
+  font-size: 20px;
+  display: inline-block;
+  collapse:collapse;
+  position: relative;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+
+}
+
+#red {
+  background-color: #E0E7E9;
+}
+
+th:hover {
+  background-color: lightgrey;
+}
+
+pre {
+  font-size: 15px;
+  margin-left: 1000px;
+  margin-top: -320px;
+  font-family: Helvetica;
+  position: relative;
+}
+
+button {
+  margin-left: 1000px;
+  height:60px;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+
+button:hover {
+opacity: 0.5;
+}
+
+h2 {
+  margin-left: 300px;
+  margin-top: 400px;
+  color: #800000;
+}
+
+form {
+  margin-left: 150px;
+  font-size: 20px;
+  font-family: Helvetica;
+
+}
+
+#dugme {
+  margin-left:500px;
+  background-color: red;
+  height:60px;
+  font-size: 20px;
+  color: #fff;
+  padding: 15px;
+}
+
+#dugme:hover {
+  opacity: 0.5;
+}
+
+#labela {
+  width: 550px;
+  height: 30px;
+}
+
+.forma2 {
+  margin-left: 650px;
+  margin-top: -550px;
+  font-size: 15px;
+}
+
+.forma3 {
+  margin-left: 900px;
+  margin-top: -90px;
+  font-size: 15px;
+}
+
+.napomena {
+  margin-left: 650px;
+}
+
+#labela2 {
+  width:500px;
+  height: 300px;
+}
+
+.formular {
+  visibility: hidden;
+}
+
+#tekst {
+  visibility: hidden;
+}

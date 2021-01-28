@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shopping Cart</title>
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <img id="slika" src="slika.jpg" width="500px" height="500px" />
+  <div id=naslov>
+    <h1>CASIO EDIFICE</h1>
+    <p id="sifra">Šifra proizvoda: EFR-556DB-1A</p>
+    <hr width="600px" align="left">
+  </div><br>
+  <img id="logo" src="logo.png" width="200px" height="50px" /><br>
+  <table class="tabela">
+    <tr id="red">
+      <th>Pol</th>
+      <th>Muški</th>
+    </tr>
+    <tr>
+      <th>Materijal</th>
+      <th>Čelik</th>
+    </tr>
+    <tr id="red">
+      <th>Narukvica</th>
+      <th>Čelik</th>
+    </tr>
+    <tr>
+      <th>Funckije</th>
+      <th>Datumar<br> Hronograf</th>
+    </tr>
+    <tr id="red">
+      <th>Mehanizam</th>
+      <th>Kvarcni</th>
+    </tr>
+    <tr>
+      <th>Staklo</th>
+      <th>Mineralno</th>
+    </tr>
+    <tr id="red">
+      <th>Garancija</th>
+      <th>2 Godine</th>
+    </tr>
+    <tr>
+      <th>Vodootpornost</th>
+      <th>10 Bara</th>
+    </tr>
+    <tr id="red">
+      <th>Dimenzija kućišta</th>
+      <th>48mm</th>
+    </tr>
+  </table><br>
+
+  <pre><b>Proizvođač:</b> CASIO
+
+<b>Maloprodajna cena: 17.900,00RSD</b></pre><br>
+
+  <button id="korpa" onclick="scrollWin(0, 670)">DODAJ U KORPU</button>
+
+  <div class="formular">
+    <h2>Molimo Vas da unesete/proverite svoje podatke kako biste obavili kupovinu.</h2><br>
+
+    <form class="forma" name="podaci" action="mailto:markandarko@yahoo.com" method="post">
+      Ime i prezime:<br>
+      <input id="labela" type="text" name="ime" /><br><br>
+      Adresa:<br>
+      <input id="labela" type="text" name="adresa" /><br><br>
+      Grad:<br>
+      <input id="labela" type="text" name="grad" /><br><br>
+      Poštanski broj:<br>
+      <input id="labela" type="text" name="pbroj" /><br><br>
+      Email:<br>
+      <input id="labela" type="text" name="mail" /><br><br>
+      Telefon:<br>
+      <input id="labela" type="text" name="telefon" /><br><br>
+      <input id="dugme" type="submit" value="Pošalji">
+
+
+      <div class="forma2">
+        Način plaćanja:<br><br>
+        <input type="radio" name="radio" value="kartica"> Platna kartica<br>
+        <input type="radio" name="radio" value="gotovina"> Gotovina prilikom preuzimanja<br>
+        <input type="radio" name="radio" value="uplatnica"> Uplatnica
+      </div>
+
+      <div class="forma3">
+        Način preuzimanja:<br><br>
+        <input type="radio" name="radio2" value="licno"> Lično<br>
+        <input type="radio" name="radio2" value="postexpress"> Post Express isporuka<br>
+      </div><br>
+
+      <div class="napomena">
+        <p>Napomena:</p>
+        <input id="labela2" type="text" name="napomena" />
+        <input id="tekst" type="text" name="text" />
+      </div>
+    </forma><br>
+
+</body>
+<script src="main.js"></script>
+
+</html>
